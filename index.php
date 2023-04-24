@@ -9,6 +9,7 @@
 <body>
     <h1>Lista de productos</h1>
     <div>
+        <a href="nuevoproducto.php">Nuevo</a>
         <table>
             <thead>
                 <tr>
@@ -29,7 +30,7 @@
                         echo '<th>'.$registro['Id'].'</th>';
                         echo '<th>'.$registro['Nombre'].'</th>';
                         echo '<th>'.$registro['Precio'].'</th>';
-                        echo '<th>'.$registro['Existencia'].'</th>';
+                        echo '<th>'.$registro['Existencias'].'</th>';
                         echo '</tr>';
                         }
                     }
